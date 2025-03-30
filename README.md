@@ -40,9 +40,6 @@
 4. 运行完整演示（包含QPanda和Q#概念）: `python demo.py`
 
 ## 项目结构
-
-- `quantum_blockchain.py`: 量子区块链核心实现
-- `visualize_quantum_blockchain.py`: 量子区块链可视化工具
 - `demo.py`: 演示脚本，融合QPanda和Q#概念
 - `requirements.txt`: 项目依赖
 - `README.md`: 项目说明文档
