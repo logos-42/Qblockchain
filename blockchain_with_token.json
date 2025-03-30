@@ -1,0 +1,54 @@
+{
+    "chain": [
+        {
+            "index": 0,
+            "timestamp": 1743262335.8099146,
+            "data": {
+                "message": "创世区块",
+                "timestamp": "2025-03-29T23:32:15.809916",
+                "creator": "Blockchain创建者",
+                "creator_address": "87cf8d1709bbf136d8c55164489ebd3c1569dc7786e1e0e817e83393667690f9",
+                "signature_key": "c0b462c8094cadaabc292107ecc03cf1dffb4e7adc1a256a1df931a148fa6df1",
+                "token_info": {
+                    "name": "QuantumCoin",
+                    "symbol": "QTC",
+                    "total_supply": 1000000,
+                    "initial_holder": "87cf8d1709bbf136d8c55164489ebd3c1569dc7786e1e0e817e83393667690f9"
+                }
+            },
+            "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+            "signature": "1100000010110100011000101100100000001001010011001010110110101010101111000010100100100001000001111110110011000000001111001111000111011111111110110100111001111010110111000001101000100101011010100001110111111001001100011010000101001000111110100110110111110001",
+            "nonce": 41795,
+            "hash": "000029fc1e7e677456ce466c389d83690b63c6da0ff80ef7138883a3abd1dc14"
+        },
+        {
+            "index": 1,
+            "timestamp": 1743262336.2140474,
+            "data": {
+                "type": "token_transfer",
+                "sender": "87cf8d1709bbf136d8c55164489ebd3c1569dc7786e1e0e817e83393667690f9",
+                "recipient": "2aee53cc8daeb095a26c7c10007b1271d1bf06fad02924b033dc09967eb29216",
+                "amount": 1000,
+                "token": "QTC",
+                "timestamp": 1743262336.213977,
+                "signature": "cccebf4d405aceb9fffca00cccba958f2968347dab85bac6e64335ea800bfed4",
+                "public_key": "87cf8d1709bbf136d8c55164489ebd3c1569dc7786e1e0e817e83393667690f9"
+            },
+            "previous_hash": "000029fc1e7e677456ce466c389d83690b63c6da0ff80ef7138883a3abd1dc14",
+            "signature": "cccebf4d405aceb9fffca00cccba958f2968347dab85bac6e64335ea800bfed4",
+            "nonce": 48033,
+            "hash": "0000ce7b27317f9406a2ac3c1e271f7fcc34f2ea20fb85ebac26409c9c629b3d"
+        }
+    ],
+    "token": {
+        "name": "QuantumCoin",
+        "symbol": "QTC",
+        "decimals": 18,
+        "total_supply": 1000000,
+        "balances": {
+            "87cf8d1709bbf136d8c55164489ebd3c1569dc7786e1e0e817e83393667690f9": 999000,
+            "2aee53cc8daeb095a26c7c10007b1271d1bf06fad02924b033dc09967eb29216": 1000
+        },
+        "allowed": {}
+    }
+}
